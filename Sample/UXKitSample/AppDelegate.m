@@ -20,11 +20,6 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.rootViewController = [[NSStoryboard storyboardWithName:@"Main.storyboard" bundle:nil] instantiateInitialController];
-    
-    self.windowController = [[UXWindowController alloc] initWithRootViewController:self.rootViewController];
-    [self.windowController.window setContentSize:NSMakeSize(505, 700)];
-    [self.windowController showWindow:self];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification
