@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2533A7AE1BC16C9F0068A927 /* UXKitStoryboardFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533A7AD1BC16C9F0068A927 /* UXKitStoryboardFix.m */; };
+		2533A7B01BC16CBE0068A927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2533A7AF1BC16CBE0068A927 /* Main.storyboard */; };
 		2EA6BE531A84433B00C4C122 /* UXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA6BE521A84433B00C4C122 /* UXKit.framework */; };
-		2EA6BEF01A8443F900C4C122 /* JMKNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6BEEF1A8443F900C4C122 /* JMKNavigationViewController.m */; };
 		2EA6BEF51A8445E300C4C122 /* JMKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6BEF31A8445E300C4C122 /* JMKMainViewController.m */; };
 		2EC5DB751A84B648009DB29D /* JMKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5DB741A84B648009DB29D /* JMKTableViewController.m */; };
 		2EF7B67C1A8442BB00011200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7B67B1A8442BB00011200 /* AppDelegate.m */; };
@@ -17,6 +18,7 @@
 		2EF7B6831A8442BB00011200 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7B6811A8442BB00011200 /* MainMenu.xib */; };
 		40B5CD6B1A850445000B4448 /* UXKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EA6BE521A84433B00C4C122 /* UXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F2D59B91A84C4EE00B561A8 /* DMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D59B81A84C4EE00B561A8 /* DMCollectionViewController.m */; };
+		B300E70860EC5C9DA252492C /* libPods-UXKitSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BD656588B76E8CB622D739 /* libPods-UXKitSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,9 +35,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00BD656588B76E8CB622D739 /* libPods-UXKitSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UXKitSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2533A7AC1BC16C9F0068A927 /* UXKitStoryboardFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXKitStoryboardFix.h; sourceTree = "<group>"; };
+		2533A7AD1BC16C9F0068A927 /* UXKitStoryboardFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UXKitStoryboardFix.m; sourceTree = "<group>"; };
+		2533A7AF1BC16CBE0068A927 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2EA6BE521A84433B00C4C122 /* UXKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UXKit.framework; path = ../Frameworks/UXKit.framework; sourceTree = SOURCE_ROOT; };
-		2EA6BEEE1A8443F900C4C122 /* JMKNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKNavigationViewController.h; sourceTree = "<group>"; };
-		2EA6BEEF1A8443F900C4C122 /* JMKNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKNavigationViewController.m; sourceTree = "<group>"; };
 		2EA6BEF11A84454900C4C122 /* Sample-Shared.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Shared.pch"; sourceTree = "<group>"; };
 		2EA6BEF21A8445E300C4C122 /* JMKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKMainViewController.h; sourceTree = "<group>"; };
 		2EA6BEF31A8445E300C4C122 /* JMKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKMainViewController.m; sourceTree = "<group>"; };
@@ -48,8 +52,10 @@
 		2EF7B67D1A8442BB00011200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EF7B67F1A8442BB00011200 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2EF7B6821A8442BB00011200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F0E2CDB00CB42DF587ABB6C /* Pods-UXKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UXKitSample/Pods-UXKitSample.debug.xcconfig"; sourceTree = "<group>"; };
 		9F2D59B71A84C4EE00B561A8 /* DMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCollectionViewController.h; sourceTree = "<group>"; };
 		9F2D59B81A84C4EE00B561A8 /* DMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCollectionViewController.m; sourceTree = "<group>"; };
+		E8CA6D48F0776C51299E7B3C /* Pods-UXKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-UXKitSample/Pods-UXKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EA6BE531A84433B00C4C122 /* UXKit.framework in Frameworks */,
+				B300E70860EC5C9DA252492C /* libPods-UXKitSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 				2EA6BE551A84437000C4C122 /* Framework */,
 				2EF7B6771A8442BB00011200 /* Sample */,
 				2EF7B6761A8442BB00011200 /* Products */,
+				5EE371AC675DEC8420EA8B66 /* Pods */,
+				E3AAD7560F6E13F800D56747 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +103,12 @@
 			children = (
 				2EF7B67A1A8442BB00011200 /* AppDelegate.h */,
 				2EF7B67B1A8442BB00011200 /* AppDelegate.m */,
+				2533A7AC1BC16C9F0068A927 /* UXKitStoryboardFix.h */,
+				2533A7AD1BC16C9F0068A927 /* UXKitStoryboardFix.m */,
 				2EF7B67F1A8442BB00011200 /* Images.xcassets */,
+				2533A7AF1BC16CBE0068A927 /* Main.storyboard */,
 				2EF7B6811A8442BB00011200 /* MainMenu.xib */,
 				2EF7B6781A8442BB00011200 /* Supporting Files */,
-				2EA6BEEE1A8443F900C4C122 /* JMKNavigationViewController.h */,
-				2EA6BEEF1A8443F900C4C122 /* JMKNavigationViewController.m */,
 				2EA6BEF21A8445E300C4C122 /* JMKMainViewController.h */,
 				2EA6BEF31A8445E300C4C122 /* JMKMainViewController.m */,
 				2EC5DB731A84B648009DB29D /* JMKTableViewController.h */,
@@ -120,6 +130,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5EE371AC675DEC8420EA8B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F0E2CDB00CB42DF587ABB6C /* Pods-UXKitSample.debug.xcconfig */,
+				E8CA6D48F0776C51299E7B3C /* Pods-UXKitSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3AAD7560F6E13F800D56747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00BD656588B76E8CB622D739 /* libPods-UXKitSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,10 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EF7B6921A8442BB00011200 /* Build configuration list for PBXNativeTarget "UXKitSample" */;
 			buildPhases = (
+				3D36FE0C5E1043363F1AF44B /* Check Pods Manifest.lock */,
 				2EF7B6711A8442BB00011200 /* Sources */,
 				2EF7B6721A8442BB00011200 /* Frameworks */,
 				2EF7B6731A8442BB00011200 /* Resources */,
 				40B5CD6A1A850442000B4448 /* CopyFiles */,
+				EC1C5426DAB046182851BB92 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,10 +209,44 @@
 			files = (
 				2EF7B6801A8442BB00011200 /* Images.xcassets in Resources */,
 				2EF7B6831A8442BB00011200 /* MainMenu.xib in Resources */,
+				2533A7B01BC16CBE0068A927 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D36FE0C5E1043363F1AF44B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1C5426DAB046182851BB92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UXKitSample/Pods-UXKitSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2EF7B6711A8442BB00011200 /* Sources */ = {
@@ -194,7 +257,7 @@
 				9F2D59B91A84C4EE00B561A8 /* DMCollectionViewController.m in Sources */,
 				2EF7B67E1A8442BB00011200 /* main.m in Sources */,
 				2EC5DB751A84B648009DB29D /* JMKTableViewController.m in Sources */,
-				2EA6BEF01A8443F900C4C122 /* JMKNavigationViewController.m in Sources */,
+				2533A7AE1BC16C9F0068A927 /* UXKitStoryboardFix.m in Sources */,
 				2EF7B67C1A8442BB00011200 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +354,7 @@
 		};
 		2EF7B6931A8442BB00011200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0E2CDB00CB42DF587ABB6C /* Pods-UXKitSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
@@ -308,6 +372,7 @@
 		};
 		2EF7B6941A8442BB00011200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CA6D48F0776C51299E7B3C /* Pods-UXKitSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";

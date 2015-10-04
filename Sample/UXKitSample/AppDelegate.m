@@ -7,34 +7,28 @@
 //
 
 #import "AppDelegate.h"
-#import "JMKNavigationViewController.h"
 #import "JMKMainViewController.h"
 
 @interface AppDelegate ()
 
-@property (strong, nonatomic) UXWindowController *windowController;
 @property (strong, nonatomic) UXNavigationController *rootViewController;
+@property (strong, nonatomic) UXWindowController *windowController;
 
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    self.rootViewController = [[NSStoryboard storyboardWithName:@"Main.storyboard" bundle:nil] instantiateInitialController];
     
-    self.rootViewController = [[JMKNavigationViewController alloc] init];
     self.windowController = [[UXWindowController alloc] initWithRootViewController:self.rootViewController];
-    
     [self.windowController.window setContentSize:NSMakeSize(505, 700)];
     [self.windowController showWindow:self];
-    
-    
-    JMKMainViewController *mainVC = [JMKMainViewController new];
-    
-    [self.rootViewController pushViewController:mainVC animated:NO];
-    
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
     // Insert code here to tear down your application
 }
 

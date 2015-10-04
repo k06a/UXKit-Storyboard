@@ -1,0 +1,13 @@
+PODS:
+  - JRSwizzle (1.0)
+  - Masonry (0.6.3)
+
+DEPENDENCIES:
+  - JRSwizzle
+  - Masonry
+
+SPEC CHECKSUMS:
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+
+COCOAPODS: 0.38.2
