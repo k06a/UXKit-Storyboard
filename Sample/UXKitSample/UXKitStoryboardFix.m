@@ -17,11 +17,11 @@
 }
 
 - (void)xxx_removeConstraints:(NSArray<NSLayoutConstraint *> *)constraints {
-    [self xxx_removeConstraints:[NSArray arrayWithArray:constraints]];
+    [self xxx_removeConstraints:constraints ?: @[]];
 }
 
 - (void)xxx_addConstraints:(NSArray<NSLayoutConstraint *> *)constraints {
-    [self xxx_addConstraints:[NSArray arrayWithArray:constraints]];
+    [self xxx_addConstraints:constraints ?: @[]];
 }
 
 @end
